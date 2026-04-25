@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Stitcher</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>🔗 Orthographic Top-Down Image Stitcher</h1>
+    <div>
+        <input type="file" id="files" multiple accept="image/*">
+        <button onclick="uploadFiles()">📤 Upload</button>
+    </div>
+    <button onclick="calibrate()">🔧 Calibrate</button>
+    <button onclick="stitch()">✂️ Stitch</button>
+    <div id="result"></div>
+    <script src="app.js"></script>
+</body>
+</html>
